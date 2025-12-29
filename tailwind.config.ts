@@ -11,6 +11,18 @@ export default {
         sm: ".1875rem", /* 3px */
       },
       colors: {
+        primary: {
+          DEFAULT: "#0f172a",
+          foreground: "#ffffff",
+        },
+        secondary: {
+          DEFAULT: "#dc2626",
+          foreground: "#ffffff",
+        },
+        accent: {
+          DEFAULT: "#fbbf24",
+          foreground: "#000000",
+        },
         // Flat / base colors (regular buttons)
         background: "hsl(var(--background) / <alpha-value>)",
         foreground: "hsl(var(--foreground) / <alpha-value>)",
@@ -83,7 +95,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ["var(--font-sans)"],
+        sans: ["Inter", "sans-serif"],
+        heading: ["Oswald", "sans-serif"],
         serif: ["var(--font-serif)"],
         mono: ["var(--font-mono)"],
       },
